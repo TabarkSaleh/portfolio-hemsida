@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hemsida</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <section id="enter">
+            <h1 class="message"></h1>
+            <article id="content">
+
+                <ul id="list"></ul>
+                <article id="content">
+                    <form id="form"></form>
+                    <div id="x"></div>
+                </article>
+                <nav class="navbar navbar-expand-lg navbar-light bg-info">
+                    <a href="#" class="navbar-brand text-lighr">Högskolan</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#responsive-menu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="responsive-menu">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                            <li class="nav-item"><a href="#Kurser" class="nav-link">Kurser</a></li>
+                            <li class="nav-item"><a href="#Ansök" class="nav-link">Ansök</a></li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <header class="jumbotron text-center splash-screen">
+                    <div class="cta">
+                        <h1 class="display-4">Framtidens Högskola</h1>
+                        <p class="lead">Bygg din framtid</p>
+                        <a href="#Ansök" class="btn btn-outline-light">Ansök</a>
+                    </div>
+                </header>
+
+                <main class="Kurser">
+                    <article class="Kurser" id="Kurser">
+                        <h1>Kurser</h1>
+                        <table style="width: 250px;">
+                            <tr class="top">
+                                <th>Kurs</th>
+                                <th>Period</th>
+                                <th>Poäng</th>
+                            </tr>
+                            <tr>
+                                <td>Programering</td>
+                                <td>v5-v15</td>
+                                <td>100</td>
+                            </tr>
+                            <tr>
+                                <td>Biologi</td>
+                                <td>v16-v26</td>
+                                <td>100</td>
+                            </tr>
+                            <tr>
+                                <td>Fysik 1a</td>
+                                <td>v27-v40</td>
+                                <td>150</td>
+                            </tr>
+                        </table>
+                        <div class="my-5"></div>
+                        <div class="py-5"></div>
+                    </article>
+                    <main class="Ansök">
+                        <section class="container" id="Ansök">
+                            <div class="my-5"></div>
+                            <h2 class="text-center">Ansök</h2>
+                            <div class="row ">
+                                <div class="col-md-8 offest-md-2 ">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="namn">Namn</label>
+                                            <input type="namn" id="namn" class="form-control" placeholder="Enter Name">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="message">Kursnamn</label>
+                                            <textarea id="message" class="form-control"
+                                                placeholder="Enter Course name"></textarea>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="message">E-mail</label>
+                                            <textarea id="message" class="form-control"
+                                                placeholder="Enter E-mail"></textarea>
+                                        </div>
+
+                                        <button type="submit" class="btn btn-light">Send</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </section>
+                        <section id="parallax">
+                            <article class="tagline">
+                                <h3 class="text-center text-light">Believe in yourself</h3>
+                            </article>
+                        </section>
+                    </main>
+
+                    <footer id="footer" class="container-fluid">
+                        <p class="lead text-center">Made By Tabark Saleh &copy; 2020</p>
+                    </footer>
+                    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+                        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+                        crossorigin="anonymous"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+                        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                        crossorigin="anonymous"></script>
+                    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+                        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                        crossorigin="anonymous"></script>
+        </section>
+    </main>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+.splash-screen {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('högskola.jpeg');
+    background-size: cover;
+}
+
+.splash-screen .cta{
+    padding: 22px;
+    background-color: plum;
+    color: white;
+    border-radius: 15px;
+
+}
+
+#kurser h1 {
+    text-transform: uppercase;
+}
+
+ .content   {
+    border: none;
+}
+
+#kurser .container, h1, tr, th, td {
+    text-align: center;
+}
+
+
+
+
+
+#parallax {
+    background-image: url('belive.jpeg');
+    height: 40vh;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#parallax .tagline {
+    padding: 15px 40px;
+    background-color: rgba(8, 12, 15, 2);
+    border-radius: 4px;
+} 
+
+#footer {
+    background-color: pink;
+    color: white;
+    padding: 10px;
+}
+
+#x {
+    text-align: center;
+}
+
+#list {
+   
+}
